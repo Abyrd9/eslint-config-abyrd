@@ -1,4 +1,4 @@
-.gitignore
 .vscode
 .eslintrc
+.gitignore
 README.md

@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrew Byrd",
-  "license": "ISC",
+  "license": "MIT",
   "repository": "https://github.com/Abyrd9/eslint-config-abyrd",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -20,10 +20,8 @@
   },
   "homepage": "https://github.com/Abyrd9/eslint-config-abyrd#readme",
   "dependencies": {
-    "babel-eslint": "^10.1.0",
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",

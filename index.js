@@ -1,13 +1,20 @@
 module.exports = {
-  root: true,
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2021,
     sourceType: "module",
     ecmaFeatures: {
       jsx: true
     }
   },
-  plugins: ["jsx-a11y", "prettier"],
+  env: {
+    amd: true,
+    node: true,
+    es2021: true,
+    browser: true,
+    commonjs: true,
+    serviceworker: true
+  },
+  plugins: ["react", "react-hooks", "jsx-a11y", "prettier"],
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
@@ -18,12 +25,6 @@ module.exports = {
   ],
   rules: {
     "prettier/prettier": ["error", {}, { usePrettierrc: true }]
-  },
-  env: {
-    browser: true,
-    es2020: true,
-    amd: true,
-    node: true
   },
   settings: {
     react: {

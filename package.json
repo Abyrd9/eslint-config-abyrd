@@ -1,6 +1,6 @@
 {
   "name": "@abyrd9/eslint-config-abyrd",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An eslint config for abyrd's projects",
   "main": "index.js",
   "files": [
